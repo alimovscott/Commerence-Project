@@ -6,7 +6,8 @@ import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 import CssBaseline from '@mui/material/CssBaseline';
 import {ThemeProvider} from "@mui/material/styles";
-import theme from './theme';
+import theme from "./app/MaterialTheme";
+
 import './css/index.css';
 
 const container = document.getElementById('root')!;
