@@ -1,0 +1,208 @@
+.order-page {
+  width: 100%;
+  height: auto;
+  background: #f8f8ff;
+  display: flex;
+}
+.order-page .order-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.order-page .order-left {
+  width: 860px;
+  height: auto;
+}
+
+.order-page .order-right {
+  width: 360px;
+  height: auto;
+  margin-top: 86px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-page .order-right .order-info-box {
+  width: 360px;
+
+  height: 308px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  background: #f8f8fe;
+  box-shadow: 14px 14px 5px 0px #bbbbbf, 0px 1px 11px 12px #d3d3e7 inset,
+    0px 4px 16px 0px rgba(242, 189, 87, 0.04) inset;
+}
+.order-page .order-right .order-info-pay {
+  width: 360px;
+  margin-top: 23px;
+  height: 282px;
+  padding: 30px 20px 30px 20px;
+  border-radius: 16px;
+  background: #f8f8fe;
+  box-shadow: 14px 14px 5px 0px #bbbbbf, 0px 1px 11px 12px #d3d3e7 inset,
+    0px 4px 16px 0px rgba(242, 189, 87, 0.04) inset;
+}
+.order-page .order-right .order-info-pay .pay-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin: 58px 64px 0px 64px;
+}
+.order-page .order-right .order-info-pay .pay-input {
+  display: flex;
+  width: 325px;
+
+  flex-direction: column;
+}
+.order-page .order-right .order-info-pay .pay-input2 {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  gap: 8px;
+  justify-content: space-between;
+}
+.order-page .order-right .order-info-pay .pay-input input {
+  width: 325px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #b4aaaa;
+  background: #f5f5f5;
+}
+.order-page .order-right .order-info-box .member-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-page .order-right .order-info-box .member-box .order-user-img {
+  position: relative;
+}
+.order-page .order-right .order-info-box .member-box .order-user-avatar {
+  width: 117px;
+  height: 112px;
+  border-radius: 37px;
+}
+.order-page .order-right .order-info-box .member-box .order-user-icon-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 37px;
+  background: rgba(0, 0, 0, 0.33);
+}
+.order-page .order-right .order-info-box .member-box .oerder-user-name {
+  color: #08090d;
+  font-family: Commissioner;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
+}
+.order-page .order-right .order-info-box .member-box .oerder-user-prof {
+  color: #a1a1a1;
+  font-family: Commissioner;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 180% */
+}
+.order-page .order-right .order-info-box .liner {
+  width: 332.59px;
+  height: 2px;
+  background: #a1a1a1;
+  margin-top: 35px;
+  display: flex;
+  gap: 10px;
+  margin-left: 5px;
+}
+
+.order-page .order-main-box {
+  width: 812px;
+  padding: 21px 32px 0px 40px;
+  border-radius: 16px;
+  background: #f8f8fe;
+  margin-bottom: 30px;
+  box-shadow: -12px 12px 4px 0px #bababf, 0px 4px 10px 9px #d3d3e7 inset,
+    0px 4px 16px 0px rgba(242, 189, 87, 0.04) inset;
+ 
+
+}
+
+
+
+
+
+
+.order-page .order-main-box .order-box-scroll .orders-name-price {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  
+  
+}
+.order-page .order-main-box .order-box-scroll .orders-name-price .title-dish {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 163.636% */
+}
+
+.order-page .order-main-box .order-box-scroll .price-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+.order-page .order-main-box .total-price-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.order-page .order-main-box .total-price-box .verify-button {
+  width: 138.939px;
+  height: 36px;
+  border-radius: 10px;
+  background: #3a87cb;
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.order-page .order-main-box .total-price-box .pay-button {
+  width: 90px;
+  height: 36px;
+  background: #70b45b;
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.order-page .order-main-box .total-price-box .box-total {
+  display: flex;
+  width: 474px;
+  align-items: center;
+}
+.order-page .order-main-box .total-price-box .box-total p {
+  margin-left: 15px;
+}
+.order-page .order-main-box .total-price-box .box-total img {
+  margin-left: 15px;
+}
